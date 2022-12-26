@@ -10,24 +10,58 @@ import nike from '../../assets/nike.png'
 import tick from '../../assets/tick.png'
 
 
-export default function Reasons() {
+export default function Reasons ()
+{
   return (
     <div className='reasons' id='reasons'>
       <div className='left-r'>
-      <img src={image1} alt="" />
-      <img src={image2} alt="" />
-      <img src={image3} alt="" />
-      <img src={image4} alt="" />
+        <img src={ image1 } alt="" />
+        <img src={ image2 } alt="" />
+        <img src={ image3 } alt="" />
+        <img src={ image4 } alt="" />
       </div>
       <div className='right-r'>
-       <span>Some reasons</span>
+        <span>Algumas Razões</span>
 
-       <div>
-        <span className='stroke-text'>why</span>
-        <span>Choose us?</span>
-       </div>
+        <div>
+          <span className='stroke-text'> porque </span>
+          <span>nos escolher?</span>
+        </div>
+
+        <div className='details-r'>
+          <div>
+            <img src={tick } alt="" />
+            <span>MAIS DE 140+ TREINADORES ESPECIALIZADOS</span>
+          </div>
+          <div>
+            <img src={tick } alt="" />
+            <span>TREINE MAIS INTELIGENTE E MAIS RÁPIDO DO QUE ANTES</span>
+          </div>
+          <div>
+            <img src={tick } alt="" />
+            <span>APTIDÃO CONFIÁVE</span>
+          </div>
+          <div>
+            <img src={tick } alt="" />
+            <span>PROGRAMA GRATUITO PARA NOVOS MEMBROS</span>
+          </div>
+        </div>
+        <span style={{
+          color: 'var(--gray)',
+          fontWeight: '700',
+          fontSize: "2.3rem",
+          lineHeight: "4rem",
+        }} >
+        NOSSA PARCERIA
+        </span>
+
+        <div className='partners'>
+          <img src={nb} alt="nb" />
+          <img src={nike} alt="nike" />
+          <img src={adidas} alt="adidas" />
+        </div>
+
       </div>
     </div>
   )
 }
-  
