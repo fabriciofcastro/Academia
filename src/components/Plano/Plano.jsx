@@ -11,9 +11,10 @@ export default function Plano ()
         gap: '2rem',
 
       } }>
-        <span>READY TO START</span>
-        <span>YOUR JOURNEY</span>
-        <span className='stroke-text'>NOW WITHUS</span>
+        <span>PRONTO PARA COMEÇAR</span>
+        <span>SUA JORNADA
+        </span>
+        <span className='stroke-text'>AGORA CONOSCO</span>
       </div>
 
       <div className='plans'>
