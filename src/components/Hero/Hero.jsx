@@ -31,7 +31,7 @@ function Hero ()
 
           <div>
             <span>
-            aqui vamos ajudá-lo a moldar e projetar seu corpo ideal e viver sua vida ao máximo
+            Aqui iremos ajudá-lo a moldar e projetar seu corpo ideal e viver sua vida ao máximo
             </span>
           </div>
         </div>
