@@ -30,13 +30,13 @@ export default function Plano ()
               { plan.features.map( ( feature ) => (
                 <div className='feature' key={id()}>
                   <img src={ whiteTick } alt="" />
-                  <span key={ id() }>{ feature }</span>
+                  <span >{ feature }</span>
                 </div>
               ) ) }
             </div>
 
             <div>
-              <span>See more benefits</span>
+              <span>Veja mais benefícios</span>
             </div>
             <button className='btn'>Saber Mais</button>
           </div>

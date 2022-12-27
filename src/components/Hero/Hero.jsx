@@ -48,7 +48,7 @@ function Hero ()
           </div>
           <div>
             <span>+50</span>
-            <span>programa de condicionamento físico</span>
+            <span>programas de condicionamento físico</span>
           </div>
         </div>
 
