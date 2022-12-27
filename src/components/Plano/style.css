@@ -5,6 +5,11 @@
   flex-direction: column;
   gap: 4rem;
   position: relative;
+
+}
+
+.programs-header>span {
+  font-size: 4rem;
 }
 
 .plans {

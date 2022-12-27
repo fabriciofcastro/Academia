@@ -2,6 +2,7 @@ import React from 'react'
 import './style.css'
 import { programsData } from '../../data/programsData'
 import RighArrow from '../../assets/rightArrow.png'
+import { v4 as id } from 'uuid';
 
 export default function Programs ()
 {
@@ -15,7 +16,7 @@ export default function Programs ()
   
       <div className='program-categories'>
         { programsData.map( programs => (
-          <div className='category'>
+          <div className='category' key={id()}>
             { programs.image }
             <span> { programs.heading }</span>
             <span>{ programs.details }</span>
