@@ -2,7 +2,7 @@
   display: flex;
   gap: 1rem;
   padding: 0 2rem;
-  height: 50rem;
+
 }
 
 .left-t {
@@ -12,6 +12,7 @@
   flex-direction: column;
   text-transform: uppercase;
   color: #fff;
+  height: 35rem;
 }
 
 .left-t>:nth-child(1) {
@@ -35,18 +36,20 @@
 }
 
 .left-t>:nth-child(5) {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
+  letter-spacing: .2rem;
 }
 
 .right-t {
   flex: 1 ;
   position: relative;
+
 }
 
 .right-t>img {
   position: absolute;
-  width: 29rem;
-  height: 32rem;
+  width: 23rem;
+  height: 26rem;
   object-fit: cover;
   right: 15rem;
   top: 2rem;
@@ -55,8 +58,8 @@
 .right-t>:nth-child(1) {
   border: .2rem solid #ffa500;
   position: absolute;
-  width: 29rem;
-  height: 32rem;
+  width: 23rem;
+  height: 26rem;
   background-color: transparent;
   right: 17rem;
   top: .9rem;
@@ -64,8 +67,8 @@
 
 .right-t>:nth-child(2) {
   position: absolute;
-  width: 29rem;
-  height: 32rem;
+  width: 23rem;
+  height: 26rem;
   right: 13rem;
   top: 4rem;
   background: var(--planCard);
@@ -75,7 +78,7 @@
   display: flex;
   gap: 2rem;
   position: absolute;
-  top: 35rem;
+  top: 31rem;
   right: 70rem;
 }
 

@@ -18,7 +18,7 @@ body {
 .App {
   display: flex;
   flex-direction: column;
-  gap: 6rem;
+  gap: 9rem;
   width: 136.6rem;
   overflow: hidden;
   margin: auto;
@@ -48,3 +48,11 @@ body {
 .btn:hover {
   cursor: pointer;
 } 
+
+.blur {
+  background: rgba(253, 120, 43, 0.69) ;
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(150px);
+  z-index: -9;
+}

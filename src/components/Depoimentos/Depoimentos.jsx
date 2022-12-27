@@ -25,25 +25,31 @@ export default function Depoimentos() {
     <div className='depoimentos'>
       <div className='left-t'>
         <span>Depoimentos</span>
-        <span className='stroke-text'>o que eles estão</span>
+        <span className='stroke-text'>o que estão</span>
         <span>disendo sobre nós</span>
         <span>
           {depoimentos[selecionados].review }
         </span>
-        <span>
+        <span style={{
+          display: 'flex',
+          gap: '1rem',
+        }}>
           <span style={{ 
-            color: 'var(--orange)'
+            color: 'var(--orange)'           
           }}>
-            {depoimentos[selecionados].name} 
+            {depoimentos[selecionados].name } 
+          </span> 
+          <span> 
+           - { depoimentos[selecionados].status}
           </span>
-          - {depoimentos[selecionados].status}
+         
         </span>
        
       </div>
 
       <div className='right-t'>
-      <div></div>
-      <div></div>
+      <div></div> {/** quadrado */}
+      <div></div> {/** quadrado */}
           <img src={depoimentos[selecionados].image} alt="" />
           <div className='arrows'>
             <img
